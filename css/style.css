@@ -285,6 +285,7 @@ form {
 .footer .form-groupCont {
   color: #fff;
   padding-bottom: 20px;
+  background-color: transparent;
 }
 
 .form-controlCont {
