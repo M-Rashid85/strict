@@ -372,7 +372,15 @@ contact section
 media querry
 ========================== */
 @media only screen and (max-width: 992px) {
+  .gallery:hover .zoom {
+    left: 33%;
+    opacity: 1;
+  }
 
+  .gallery:hover .link {
+    left: 67%;
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 768px) {
   .banner-content{
@@ -399,7 +407,24 @@ media querry
       font-size:30px;
       margin-top: 50px;
     }
+    .gallery:hover .zoom {
+      left: 30%;
+      opacity: 1;
+    }
+
+    .gallery:hover .link {
+      left: 70%;
+      opacity: 1;
+    }
 }
 @media only screen and (max-width: 576px) {
+  .gallery:hover .zoom {
+    left: 40%;
+    opacity: 1;
+  }
 
+  .gallery:hover .link {
+    left: 60%;
+    opacity: 1;
+  }
 }
